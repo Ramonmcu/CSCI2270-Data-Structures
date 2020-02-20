@@ -1,0 +1,37 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
+
+using namespace std;
+
+struct items
+{
+	string type=""; 
+	int cost;
+	int status; 
+}
+
+int main*()
+{
+	string file= cin>>"Enter file name:";
+
+	ifstream infile;
+
+	infile.open(file);
+
+	if(infile.fail())
+	{
+	cout<<"Error file did not open";
+	}
+	else
+	{
+	cout<<"File opened"
+	}
+
+	while(getline(infile,string string_temp))
+	{
+	stringstream 
+	}
+
+}
